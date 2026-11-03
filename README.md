@@ -2,7 +2,7 @@
 
 <img src="assets/profile-banner.svg" alt="Mehedi Hasan Meraj — AI and ML Researcher working on medical imaging, explainable deep learning and efficient models" width="100%">
 
-**[Research](#research) · [Implementations](#selected-research-implementations) · [AI demos](#interactive-ai-demos) · [Teaching](#teaching-and-learning) · [Connect](#connect)**
+**[Research](#research) · [Implementations](#selected-research-implementations) · [AI demos](#interactive-ai-demos) · [Visual gallery](MEDIA.md) · [Teaching](#teaching-and-learning) · [Connect](#connect)**
 
 </div>
 
@@ -23,7 +23,22 @@ I work across model design, preprocessing, experimentation, ablation studies, st
 
 My wider research includes gallbladder ultrasound classification, diabetic retinopathy grading, texture-aware disease recognition and ECG arrhythmia classification. Selected manuscripts are under review or revision.
 
-**[Read more about my research →](RESEARCH.md)**
+**[Read more about my research →](RESEARCH.md) · [Explore the architecture gallery →](MEDIA.md#research-architectures)**
+
+<details>
+<summary><strong>See the CAE-BrainNet and CHASM architectures</strong></summary>
+
+### CAE-BrainNet
+
+<a href="MEDIA.md#research-architectures"><img src="assets/cae-brainnet-architecture.webp" alt="Published CAE-BrainNet architecture, reproduced unchanged from Figure 6" width="100%"></a>
+
+*Meraj et al., Brain Informatics (2026), Fig. 6. Reproduced unchanged. [Article](https://doi.org/10.1186/s40708-026-00325-x) · [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).*
+
+### CHASM
+
+<a href="https://github.com/Meraj-coding21/CHASM-Linear-Time-Hilbert-State-Space-Model"><img src="assets/chasm-architecture.png" alt="CHASM architecture from the project repository" width="100%"></a>
+
+</details>
 
 ## Selected research implementations
 
@@ -42,13 +57,13 @@ My wider research includes gallbladder ultrasound classification, diabetic retin
 
 ## Interactive AI demos
 
-These research demonstrations connect model inference with preprocessing, comparative predictions and visual explanations.
+These research demonstrations connect model inference with preprocessing, comparative predictions and visual explanations. The animated previews below use actual captured screens.
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="https://huggingface.co/spaces/Meraj-21/Brain-Tumor-Classification-Using-Grad-CAM"><img src="assets/demo-brain.svg" alt="Open the Brain MRI XAI Dashboard on Hugging Face" width="100%"></a></td>
-<td width="33%" valign="top"><a href="https://huggingface.co/spaces/Meraj-21/Rose-Leaf-Disease-Detection"><img src="assets/demo-rose.svg" alt="Open the Rose Leaf Disease Detection demo on Hugging Face" width="100%"></a></td>
-<td width="33%" valign="top"><a href="https://huggingface.co/spaces/Meraj-21/AQUAGUARD"><img src="assets/demo-aquaguard.svg" alt="Open the AQUAGUARD microscopy prototype on Hugging Face" width="100%"></a></td>
+<td width="33%" valign="top"><a href="https://huggingface.co/spaces/Meraj-21/Brain-Tumor-Classification-Using-Grad-CAM"><img src="assets/animations/brain-walkthrough.gif" alt="Open the Brain MRI XAI Dashboard on Hugging Face" width="100%"></a></td>
+<td width="33%" valign="top"><a href="https://huggingface.co/spaces/Meraj-21/Rose-Leaf-Disease-Detection"><img src="assets/screenshots/rose-interface.jpg" alt="Open the Rose Leaf Disease Detection demo on Hugging Face" width="100%"></a></td>
+<td width="33%" valign="top"><a href="https://huggingface.co/spaces/Meraj-21/AQUAGUARD"><img src="assets/animations/aquaguard-walkthrough.gif" alt="Open the AQUAGUARD microscopy prototype on Hugging Face" width="100%"></a></td>
 </tr>
 <tr>
 <td valign="top"><strong>Brain MRI XAI Dashboard</strong><br>Four-class classification, an attention-based ensemble and Grad-CAM displays for the base models.<br><br><a href="https://huggingface.co/spaces/Meraj-21/Brain-Tumor-Classification-Using-Grad-CAM"><strong>Try the demo →</strong></a></td>
@@ -57,7 +72,9 @@ These research demonstrations connect model inference with preprocessing, compar
 </tr>
 </table>
 
-The rose demo and TAAF-Net are related projects with distinct model pipelines. Medical-image demonstrations are intended for research and education.
+**[Watch brain walkthrough — MP4](assets/videos/brain-walkthrough.mp4) · [Watch AQUAGUARD walkthrough — MP4](assets/videos/aquaguard-walkthrough.mp4) · [Open the full screenshot gallery](MEDIA.md)**
+
+The clips are edited screenshot walkthroughs; their pacing is not inference timing. The rose image shows the interface before an upload. The rose demo and TAAF-Net use distinct model pipelines. Medical-image demonstrations are intended for research and education.
 
 ## Teaching and learning
 
@@ -68,6 +85,19 @@ I document concepts through **visual explanations, worked mathematics and code**
 | **[Deep Learning Handwritten Notes](https://github.com/Meraj-coding21/Deep-Learning-Handwritten-Notes)** | **115 pages across 13 PDFs** covering MLPs, ANN training, CNNs, RNNs, LSTMs, GRUs, attention and Transformers, with study and teaching guides |
 | **[Neural Network From Scratch](https://github.com/Meraj-coding21/Neural-Network-From-Scratch)** | **18 NumPy notebooks** covering neurons, forward/backward propagation, losses, optimizers and regularization, paired with handwritten notes |
 | **[PyTorch Basics](https://github.com/Meraj-coding21/Pytorch-Basics)** | Learning notebooks on autograd, training pipelines, datasets/loaders, neural architectures and transfer learning |
+
+### A glimpse of the handwritten collection
+
+<table>
+<tr><td width="33%" align="center"><strong>LSTM gates</strong></td><td width="33%" align="center"><strong>CNN filters</strong></td><td width="33%" align="center"><strong>Positional encoding</strong></td></tr>
+<tr>
+<td valign="top"><a href="https://github.com/Meraj-coding21/Deep-Learning-Handwritten-Notes/blob/main/notes/03-recurrent-networks/02-lstm-and-gru.pdf"><img src="assets/notes/lstm-gates.png" alt="Handwritten LSTM gate explanations, PDF page 1" width="100%"></a></td>
+<td valign="top"><a href="https://github.com/Meraj-coding21/Deep-Learning-Handwritten-Notes/blob/main/notes/02-cnns/01-cnn-foundations.pdf"><img src="assets/notes/cnn-convolution.png" alt="Handwritten CNN convolution explanations, PDF page 3" width="100%"></a></td>
+<td valign="top"><a href="https://github.com/Meraj-coding21/Deep-Learning-Handwritten-Notes/blob/main/notes/05-transformers/01-scaled-attention-multihead-and-position.pdf"><img src="assets/notes/positional-encoding.png" alt="Handwritten positional encoding equations, PDF page 9" width="100%"></a></td>
+</tr>
+</table>
+
+**[Browse all 115 pages of notes →](https://github.com/Meraj-coding21/Deep-Learning-Handwritten-Notes)**
 
 ## Background
 

@@ -20,6 +20,12 @@ The work studies a class-adaptive attention ensemble for MRI-based brain tumor c
 
 **DOI:** `10.1186/s40708-026-00325-x`
 
+<img src="assets/cae-brainnet-architecture.webp" alt="Original published CAE-BrainNet Figure 6 architecture" width="100%">
+
+*Published Fig. 6, reproduced unchanged. © The Author(s), 2026. [Source article](https://pmc.ncbi.nlm.nih.gov/articles/PMC13534405/) · [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).*
+
+[Explore the demo captures and walkthroughs →](MEDIA.md)
+
 ## Accepted work
 
 ### TriG-Net
